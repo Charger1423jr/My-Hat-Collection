@@ -2,16 +2,16 @@
     {
         "picFile": ".\/images\/alaska.jpg",
         "name": "Alaska State",
-        "bio": "Acquired hat during vacation to Alaska. Bought in tourist shop in Skagway.",
-        "details": "Green hat with brown felt brim. Has state name, along with a brown bear in the middle of the leather patch. At the bottom, it says 'The Last Frontier', Alaska's state motto.",
+        "bio": " Acquired hat during vacation to Alaska. Bought in tourist shop in Skagway. ",
+        "details": " Green hat with brown felt brim. Has state name, along with a brown bear in the middle of the leather patch. At the bottom, it says 'The Last Frontier', Alaska's state motto. ",
         "year": "2024",
-        "price": 20
+        "price": 25
     },
     {
         "picFile": ".\/images\/california.jpg",
         "name": "California State",
         "bio": "Parents acquired hat when visiting San Francisco during vacation.",
-        "details": "Black and gray hat. Big cursive 'Cali' on front with small ones in a checkered pattern on underside of brim. Small brown bear walking, representing California's State Flag.",
+        "details": "Black and gray hat. Big cursive 'Cali' on front with small ones in a checkered pattern on underside of brim. Small grizzly bear walking, representing California's State Flag.",
         "year": "2022",
         "price": 30
     },

@@ -3,42 +3,35 @@ $jsonData = file_get_contents('hats.json');
 $hat = json_decode($jsonData, true);
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    // Get the form data
     $name = $_POST['name'];
     $year = $_POST['year'];
     $price = $_POST['price'];
     $bio = $_POST['bio'];
     $details = $_POST['details'];
 
-    // Handle file upload
-    $uploadDir = 'images/'; // Directory where the image will be saved
+    $uploadDir = 'images/';
     $uploadedFile = $uploadDir . basename($_FILES['picFile']['name']);
 
-    // Move the uploaded file to the specified directory
     if (move_uploaded_file($_FILES['picFile']['tmp_name'], $uploadedFile)) {
-        // If the upload is successful, prepare new hat entry
         $newHat = [
             'picFile' => $uploadedFile,
-'name' => $name,
-'year' => $year,
-'price' => (float)$price, // Convert price to float for consistency
-'bio' => $bio,
-'details' => $details // Include details
+            'name' => $name,
+            'year' => $year,
+            'price' => (float)$price,
+            'bio' => $bio,
+            'details' => $details
 ];
 
-// Find the next available index
-$nextIndex = count($hat); // This will give the count, which is the next index
+$nextIndex = count($hat);
 $hat[$nextIndex] = $newHat;
 
-// Save the updated data back to the JSON file
 $newJsonData = json_encode($hat, JSON_PRETTY_PRINT);
 file_put_contents('hats.json', $newJsonData);
 
-// Optionally redirect to avoid resubmission
-header('Location: create.php');
+header('Location: index.php');
 exit();
 } else {
-echo "File upload failed!";
+echo "File Failed";
 }
 }
 ?>

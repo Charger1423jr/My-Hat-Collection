@@ -8,3 +8,6 @@ Work Completed By: Preston Jackson
 4. Edit Page: Allow user to modify existing information about specific item, such as the name, bio, details, etc.
 5. Delete Page: Allow user to delete existing item from the JSON file.
 6. JSON File: Contains multidimensional array containing all information for the hats.
+
+#Disclaimer
+Images folder too large to upload to GitHub

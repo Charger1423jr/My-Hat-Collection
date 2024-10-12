@@ -1,0 +1,82 @@
+[
+    {
+        "picFile": ".\/images\/alaska.jpg",
+        "name": "Alaska State",
+        "bio": "Acquired hat during vacation to Alaska. Bought in tourist shop in Skagway.",
+        "details": "Green hat with brown felt brim. Has state name, along with a brown bear in the middle of the leather patch. At the bottom, it says 'The Last Frontier', Alaska's state motto.",
+        "year": "2024",
+        "price": 20
+    },
+    {
+        "picFile": ".\/images\/california.jpg",
+        "name": "California State",
+        "bio": "Parents acquired hat when visiting San Francisco during vacation.",
+        "details": "Black and gray hat. Big cursive 'Cali' on front with small ones in a checkered pattern on underside of brim. Small brown bear walking, representing California's State Flag.",
+        "year": "2022",
+        "price": 30
+    },
+    {
+        "picFile": ".\/images\/colorado.jpg",
+        "name": "Colorado State",
+        "bio": "Bought during Layover in Denver on the way to Alaska.",
+        "details": "Trucker-Style hat. Front has the colors of Colorado's state flag with the mountains at the bottom.",
+        "year": "2024",
+        "price": 25
+    },
+    {
+        "picFile": ".\/images\/florida.jpg",
+        "name": "Back To The Future",
+        "bio": "Hat from the Movie 'Back to the Future: Part II'. Bought during vacation to Universal Studios in Orlando, Florida.",
+        "details": "Reflective rainbow colors all around hat.",
+        "year": "2021",
+        "price": 50
+    },
+    {
+        "picFile": ".\/images\/hawaii.JPG",
+        "name": "Hawaii State",
+        "bio": "Bought by Parents during vacation to Hawaii. found in Hana.",
+        "details": "Red base, 'Hana', the city's name, written in cursive on the front, with the Hawaiian flag on the top of the brim.",
+        "year": "2021",
+        "price": 20
+    },
+    {
+        "picFile": ".\/images\/illinois.jpg",
+        "name": "Chicago Windy City",
+        "bio": "Bought during a school field trip to Chicago, found at a pier shop. My second hat in my collection.",
+        "details": "Beige base with black brim and accents. Leather patch that says, 'Chicago The Windy City', with the city flag behind it.",
+        "year": "2017",
+        "price": 35
+    },
+    {
+        "picFile": ".\/images\/michigan.jpg",
+        "name": "Lake Michigan Sunrise",
+        "bio": "Bought during Vacation to Michigan. Found in a Harbor town gift shop.",
+        "details": "Black base with baby blue script saying, 'Michigan'. The Brim is a sunset over Lake Michigan.",
+        "year": "2018",
+        "price": 20
+    },
+    {
+        "picFile": ".\/images\/newyork.jpg",
+        "name": "New York Designer",
+        "bio": "Bought at the H&M in Times Square during a vacation to New York City. My first hat the begin my collection",
+        "details": "Dark gray and light gray hat. Felt Brim, with patch that says 'YHH'.",
+        "year": "2016",
+        "price": 35
+    },
+    {
+        "picFile": ".\/images\/scarolina.jpg",
+        "name": "Coach Designer",
+        "bio": "Bought at Coach Outlet Store. On sale for half off. My most expensive hat in my collection.",
+        "details": "Leather brim and clasp. Coach design on hat with cursive 'Coach' in blue.",
+        "year": "2019",
+        "price": 120
+    },
+    {
+        "picFile": ".\/images\/texas.jpg",
+        "name": "Texas State",
+        "bio": "Bought in Dallas Airport during layover to Cincinnati from Seattle.",
+        "details": "Trucker-Style. Texas state outline on front with 'Tx' in the middle. Looks older than it really is.",
+        "year": "2024",
+        "price": 25
+    }
+]

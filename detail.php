@@ -24,10 +24,10 @@
                     <a class="nav-link" href="create.php">Add</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="edit.php">Edit</a>
+                    <a class="nav-link" href="edit.php?id=' . $i . '">Edit</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="delete.php">Delete</a>
+                    <a class="nav-link" href="delete.php?id=' . $i .'">Delete</a>
                 </li>
             </ul>
         </header>

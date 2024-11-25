@@ -1,0 +1,13 @@
+Final Steps:
+
+1. Transition data from JSON to SQL and have page print data from database (Use PDO to access data on WebPage))
+2. Add Login/Signup feature that uses the SQL database to track user info
+3. Develop Pages for Users/Admins/Public that differs from each other
+4. Admins will be given the pages for CRUD, but no others will see these options (index, details, create, edit, delete)
+5. Members will be given the pages to view the content (index, details)
+6. Public will be given the pages to view the content (index)
+
+Notes:
+1. Do not use "die" or "print_r" statements
+2. Don't forget to do a presentation video
+3. Download and link the SQL file into the GitHub

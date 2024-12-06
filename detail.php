@@ -41,8 +41,8 @@ try {
 
             <?php if (isset($_SESSION['admin']) && $_SESSION['admin'] == 1): ?>
                 <a class="nav-link" href="create.php">Add</a>
-                <a class="nav-link" href="edit.php" tabindex="-1">Edit</a>
-                <a class="nav-link" href="delete.php" tabindex="-1">Delete</a>
+                <a class="nav-link" href="edit.php?id=<?= $hat['id']; ?>" tabindex="-1">Edit</a>
+                <a class="nav-link" href="delete.php?id=<?= $hat['id']; ?>" tabindex="-1">Delete</a>
             <?php else: ?>
 
                 <a class="nav-link text-muted" href="#" tabindex="-1" aria-disabled="true">Add</a>

@@ -1,6 +1,11 @@
 # ASE230-MidTerm
 Work Completed By: Preston Jackson
 
+# User Credentials:
+1. Username: Bobby1; Password: password123
+2. Username: Tommy2; Password: password123
+3. Username: JimmyAdmin; Password adminpassword
+
 # How It Works:
 
 1. Index Page: Creates showing of SQL items (Base set is 10, unless added to). All item buttons lead to details page about item. Also allows to add new items from the nav menu, but the other options are gray'd out.
